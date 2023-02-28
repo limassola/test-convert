@@ -1,0 +1,4 @@
+.nav__item:last-child {
+    color: rgba(255, 211, 175, 1);
+    margin: 0;
+}

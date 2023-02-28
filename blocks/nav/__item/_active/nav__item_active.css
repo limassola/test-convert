@@ -1,0 +1,13 @@
+.nav__item_active {
+   color: #fff; 
+   
+   
+}
+
+.nav__item_active::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 48px;
+    border-top: 3px solid rgba(255, 161, 85, 1);
+}
