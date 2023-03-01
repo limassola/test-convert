@@ -1,0 +1,7 @@
+.testimonials__person {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 190px;
+    padding: 0 0 42px 40px;
+}

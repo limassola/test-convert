@@ -1,0 +1,8 @@
+.testimonials__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(35, 37, 54, .87);
+    margin: 0 0 24px 0;
+    padding: 48px 69px 0 40px;
+}
