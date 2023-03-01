@@ -1,0 +1,7 @@
+.details__item {
+    margin-bottom: 30px;
+}
+
+.details__item:last-child {
+    margin-bottom: 0;
+}

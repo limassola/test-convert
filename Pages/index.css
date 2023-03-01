@@ -10,6 +10,7 @@
 /* Sections */
 @import url(../blocks/section/__home/section__home.css);
 @import url(../blocks/section/__careers/section__careers.css);
+@import url(../blocks/section/__details/section__details.css);
 
 /* Navbar */
 @import url(../blocks/navbar/navbar.css);
@@ -32,3 +33,11 @@
 @import url(../blocks/main/__title/main__title.css);
 @import url(../blocks/main/__text/main__text.css);
 @import url(../blocks/main/__shapes/main__shapes.css);
+
+/* Details */
+@import url(../blocks/details/details.css);
+@import url(../blocks/details/__header/details__header.css);
+@import url(../blocks/details/__heading/details__heading.css);
+@import url(../blocks/details/__heading/_active/details__heading_active.css);
+@import url(../blocks/details/__list/details__list.css);
+@import url(../blocks/details/__item/details__item.css);

@@ -1,0 +1,9 @@
+.details__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto 90px;
+    border-bottom: 3px solid #E0F1F2;;
+}

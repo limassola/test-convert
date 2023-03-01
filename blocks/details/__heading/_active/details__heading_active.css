@@ -1,0 +1,12 @@
+.details__heading_active {
+    color: #454DFD;
+}
+
+.details__heading_active::after {
+    content: "";
+    width: 80px;
+    border: 3px solid #454DFD;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
