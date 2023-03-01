@@ -21,6 +21,7 @@
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/nav/__item/_active/nav__item_active.css);
+@import url(../blocks/nav/__item/_type/_modal/nav__item_type_modal.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
