@@ -51,3 +51,11 @@
 @import url(../blocks/testimonials/__avatar/testimonials__avatar.css);
 @import url(../blocks/testimonials/__name/testimonials__name.css);
 @import url(../blocks/testimonials/__job/testimonials__job.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__row-links/footer__row-links.css);
+@import url(../blocks/footer/__row-link/footer__row-link.css);

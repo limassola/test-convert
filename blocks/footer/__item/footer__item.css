@@ -1,0 +1,7 @@
+.footer__item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 160px;
+    justify-content: space-between;
+}
