@@ -1,0 +1,16 @@
+.form__input {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #232536;
+    border: none;
+    border-bottom: 1px solid rgba(35, 37, 54, .2);
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.form__input:nth-child(8){
+    margin-bottom: 50px;
+}

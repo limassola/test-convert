@@ -1,4 +1,7 @@
 .section__testimonials {
     background-color: #F9F9FF;
     padding: 100px 0 140px 0;
+    background-image: url(../../../images/testimonials__shapes-before.png);
+    background-repeat: no-repeat;
+    background-position: 404px 100px;
 }

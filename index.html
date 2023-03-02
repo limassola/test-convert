@@ -28,7 +28,7 @@
                         <h1 class="header__title">Transform Your Idea Into Reality with Finsweet</h1>
                         <p class="header__text">The entire Finsweet team knows what's good with Webflow and you can too
                             with 1 week and a good attitude.</p>
-                        <button class="header__button"><img class="header__button-image" src="./images/Shapes.svg">
+                        <button class="button header__button"><img class="button__image" src="./images/Shapes.svg">
                             Request Quote &rarr;</button>
                     </div>
                     <img src="./images/header_image.png" alt="interview">
@@ -53,9 +53,9 @@
         <div class="container">
             <div class="details">
                 <div class="details__header">
-                    <p class="details__heading details__heading_active">Details</p>
-                    <p class="details__heading">Requirements</p>
-                    <p class="details__heading">Responsibilities</p>
+                    <h2 class="details__heading details__heading_active">Details</h2>
+                    <h2 class="details__heading">Requirements</h2>
+                    <h2 class="details__heading">Responsibilities</h2>
                 </div>
                 <ul class="details__list">
                     <li class="details__item">Create and edit video content for multi-platform use and distribution for
@@ -82,8 +82,9 @@
     <section class="section__testimonials" id="testimonials">
         <div class="container">
             <div class="testimonials">
-                <p class="testimonials__title">Finsweet has been a wonderful partner to work with. I have been a customer
-                    now for the past few months now and I have had nothing but positive experiences!</p>
+                <img class="testimonials__image" src="./images/testimonials_Quote.svg" alt="quote">
+                <h2 class="testimonials__title">Finsweet has been a wonderful partner to work with. I have been a customer
+                    now for the past few months now and I have had nothing but positive experiences!</h2>
                 <div class="testimonials__person">
                     <img class="testimonials__avatar" src="./images/testimonials__Image.png" alt="avatar">
                     <div class="testimonials__heading">
@@ -106,6 +107,29 @@
             <li><a class="footer__row-link" href="#"><img class="footer__social-icon" src="./images/linkedin__icon.svg" alt=""></a></li>
         </ul>
     </footer>
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__button"></button>
+            <h2 class="popup__title">Have a Question ?
+                Let’s Get in Touch with us 👋</h2>
+            <p class="popup__text">Fill up the form and the team will get back to within 24 hrs</p>
+            <form class="form">
+                <label class="form__label" for="name">Name</label>
+                <input class="form__input" type="text" placeholder="Paresh Srichandan">
+                
+                <label class="form__label" for="E-mail">E-mail *</label>
+                <input class="form__input" type="email" placeholder="Paresh@pixeto.com">
+
+                <label class="form__label" for="phone">Phone *</label>
+                <input class="form__input" type="tel" placeholder="+7 (___) ___-__-__">
+
+                <label class="form__label" for="message">Message</label>
+                <input class="form__input" type="text" placeholder="Type your Message">
+
+                <button class="button form__button"><img class="button__image" src="./images/Shapes.svg">Send Messege &rarr;</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

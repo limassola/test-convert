@@ -1,0 +1,12 @@
+.popup__button {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(45, 41, 52, 1);
+    border: none;
+    background-image: url(../../../images/button__Close.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: -10px;
+    top: 36px;
+}
