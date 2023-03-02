@@ -1,6 +1,17 @@
 .testimonials {
     background-color: #fff;
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     position: relative;
+}
+
+/* .testimonials::before {
+    content: url(../../images/testimonials__shapes-before.png);
+} */
+
+
+@media screen and (max-width: 768px) {
+    .testimonials {
+        min-height: 340px;
+    }
 }

@@ -8,3 +8,9 @@
     border-bottom: 3px solid #E0F1F2;
     padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .details__header {
+        justify-content: space-between;
+    }
+}

@@ -4,3 +4,11 @@
     justify-content: space-between;
     padding-bottom: 70px;
 }
+
+
+@media screen and (max-width: 628px) {
+    .header {
+        display: block;
+        text-align: center;
+    }
+}

@@ -5,3 +5,21 @@
     background-repeat: no-repeat;
     background-position: 404px 100px;
 }
+
+/* @media screen and (max-width: 1366px) {
+    .section__testimonials {
+        background-position: 366px 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section__testimonials {
+        background-position: 195px 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section__testimonials {
+        background-position: 105px 100px;
+    }
+} */

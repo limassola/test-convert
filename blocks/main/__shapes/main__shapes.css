@@ -3,3 +3,30 @@
     top: -34px;
     right: 400px;
 }
+
+@media screen and (max-width: 1366px) {
+    .main__shapes {
+        right: 150px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main__shapes {
+        right: 100px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main__shapes {
+        right: 70px;
+    }
+}
+
+
+@media screen and (max-width: 628px) {
+    .main__shapes {
+        display: none;
+    }
+}

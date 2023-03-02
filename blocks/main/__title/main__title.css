@@ -4,6 +4,20 @@
     font-size: 48px;
     line-height: 58px;
     color: #232536;
-    width: 624px;
+    max-width: 624px;
     margin: 0 auto 24px;
+    /* text-align: center; */
+}
+
+/* @media screen and (max-width: 1024px) {
+    .main__title {
+        max-width: 250px;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .main__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }

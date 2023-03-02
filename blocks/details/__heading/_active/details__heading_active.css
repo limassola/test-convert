@@ -10,3 +10,20 @@
     bottom: -30px;
     left: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .details__heading_active::after {
+        width: 72px;
+        left: -10px;
+        bottom: -18px;
+    }
+}
+
+
+@media screen and (max-width: 628px) {
+    .details__heading_active::after {
+        width: 50px;
+        left: -0px;
+        bottom: -18px;
+    }
+}
