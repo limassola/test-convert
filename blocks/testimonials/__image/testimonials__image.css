@@ -1,5 +1,6 @@
 .testimonials__image {
     position: absolute;
-    top: -19px;
-    right: 40px;
+    top: 80px;
+    right: 30%;
+    z-index: 2;
 }

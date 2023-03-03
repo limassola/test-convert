@@ -49,6 +49,8 @@
 
 /* Testimonials */
 @import url(../blocks/testimonials/testimonials.css);
+@import url(../blocks/testimonials/__container/testimonials__container.css);
+@import url(../blocks/testimonials/__item/testimonials__item.css);
 @import url(../blocks/testimonials/__image/testimonials__image.css);
 @import url(../blocks/testimonials/__title/testimonials__title.css);
 @import url(../blocks/testimonials/__person/testimonials__person.css);

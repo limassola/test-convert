@@ -2,16 +2,20 @@
     background-color: #fff;
     max-width: 600px;
     margin: 0 auto;
-    position: relative;
+   
 }
 
-/* .testimonials::before {
-    content: url(../../images/testimonials__shapes-before.png);
-} */
+
 
 
 @media screen and (max-width: 768px) {
     .testimonials {
         min-height: 340px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .testimonials::before {
+        display: none;
     }
 }

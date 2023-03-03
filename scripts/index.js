@@ -38,3 +38,9 @@ openLink.addEventListener('click', openPopup);
 closeBtn.addEventListener('click', closePopup);
 popupBtn.addEventListener('submit', handleFormSubmit);
 document.addEventListener('mousedown', closeByOverlay);
+
+new Swiper('.swiper',{
+    pagination: {
+        el: '.swiper-pagination',
+    }
+});

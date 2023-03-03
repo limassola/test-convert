@@ -1,0 +1,11 @@
+.testimonials__container {
+    background-color: #fff;
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+.testimonials__container::before {
+    content: url(../../images/testimonials__shapes-before.png);
+    height: 100%;
+    display: block;
+}

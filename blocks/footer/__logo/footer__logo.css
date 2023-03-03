@@ -7,7 +7,7 @@
     color: #232536;
 }
 
-@media screen and (max-width: 628px) {
+@media screen and (max-width: 675px) {
     .footer__logo {
         margin: 0
     }
