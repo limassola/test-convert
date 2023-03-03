@@ -41,10 +41,12 @@
 
 /* Details */
 @import url(../blocks/details/details.css);
+@import url(../blocks/details/__container/details__container.css);
 @import url(../blocks/details/__header/details__header.css);
 @import url(../blocks/details/__heading/details__heading.css);
 @import url(../blocks/details/__heading/_active/details__heading_active.css);
 @import url(../blocks/details/__list/details__list.css);
+@import url(../blocks/details/__list/_active/details__list_active.css);
 @import url(../blocks/details/__item/details__item.css);
 
 /* Testimonials */

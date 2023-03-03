@@ -5,11 +5,21 @@
     line-height: 36px;
     color: #000000;
     position: relative;
+    margin: 20px 0 0 0;
+    padding-bottom: 20px;
+    text-decoration: none;
 }
 
 
 @media screen and (max-width: 768px) {
     .details__heading {
         font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 625px) {
+    .details__heading {
+        padding-bottom: 15px;
     }
 }
