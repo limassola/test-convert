@@ -4,8 +4,8 @@
     margin-bottom: 25px;
 }
 
-.testimonials__container::before {
+/* .testimonials__container::before {
     content: url(../../images/testimonials__shapes-before.png);
     height: 100%;
     display: block;
-}
+} */
