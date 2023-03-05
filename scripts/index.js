@@ -5,6 +5,7 @@ const popupBtn = document.querySelector('.form__button');
 const openLink = document.querySelector('.nav__item_type_modal');
 const tabLinks = document.querySelectorAll('.details__heading');
 const tabContent = document.querySelectorAll('.details__list');
+const modalBtn = document.querySelector('.nav__button');
 
 
 // Popup
@@ -42,6 +43,7 @@ openLink.addEventListener('click', openPopup);
 closeBtn.addEventListener('click', closePopup);
 popupBtn.addEventListener('submit', handleFormSubmit);
 document.addEventListener('mousedown', closeByOverlay);
+modalBtn.addEventListener('click', openPopup);
 
 
 // Slider

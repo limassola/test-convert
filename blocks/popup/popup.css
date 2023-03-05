@@ -11,3 +11,15 @@
     width:100vw;
     height:100vh;
 }
+
+@media screen and (max-height: 720px) {
+    .popup {
+        top: 40px;
+    }
+}
+
+@media screen and (max-height: 768px) {
+    .popup {
+        top: 50px;
+    }
+}

@@ -1,0 +1,18 @@
+.nav__button {
+    display: none;    
+    color: rgba(255, 211, 175, 1);
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 628px) {
+    .nav__button {
+        display: block;
+    }
+}

@@ -7,6 +7,16 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    right: 40px;
-    top: 36px;
+    right: 50px;
+    top: 45px;
+}
+
+
+@media screen and (max-width: 628px) {
+    .popup__button {
+        width: 30px;
+        height: 30px;
+        right: 30px;
+        top: 55px;
+    }
 }
